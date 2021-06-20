@@ -1,0 +1,27 @@
+---
+title: "Covid 19 tracking and economic impact analysis"
+author: "Shreeram Patkr"
+date: "6/20/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(plotly)
+library(ggthemes)
+worldometer_raw <- read_csv("worldometer_coronavirus_daily_data.csv")
+econ_raw <- read_csv("economic_freedom_index2019_data.csv")
+```
+
+
+
+```{r cars}
+worldometer_raw
+econ_raw
+```
+
+
+
+
